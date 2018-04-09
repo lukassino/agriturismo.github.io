@@ -1,0 +1,29 @@
+/* Validate form for jquery.validate.min.js */
+
+input.error { border: 1px dashed coral; }
+label.error {
+	padding-left: 4px;
+	margin-left: .3em;
+	color: coral;
+    font-weight: bold;
+}
+
+label.error:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+	margin-right: 0.3em;
+	content: '\f06a';
+
+}
+
+label.valid {
+	background: url('images/checked.gif') no-repeat;
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+

@@ -1,0 +1,36 @@
+/* CSS Document */
+
+#header, header.major, #close-form, input[type="button"], h3 {
+	display:none;
+}
+
+body {
+	background:white;
+	color:black;
+	font-size: 12pt;
+}
+strong, b {
+	color:black;
+	font-weight:bold;
+}
+div.container {width: auto; padding:0; margin:0;}
+
+form#transaction_data, table#transaction_summary {margin:0}
+.box {padding:0; }
+
+
+table#transaction_summary td {
+     padding: 2pt 2pt;
+}
+
+input[type="text"] {
+	border: solid 1px gray;
+	font-weight:bold;
+	font-size:10pt;
+	height:auto;
+	padding: 2pt;
+}
+
+table#order_list td {
+	border-bottom: solid 1px gray;
+}
